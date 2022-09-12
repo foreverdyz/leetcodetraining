@@ -1,4 +1,4 @@
-#this is a 'easy' question with following solutions
+#this is an 'easy' question with following solutions
 '''
 method 1 is a general way to solve the problem. Build two dictionaries and check them when scanning string s and t.
 '''
