@@ -32,4 +32,4 @@ def method3(s: str, t: str) -> bool:
 map(fun, list) is fun(list[i]) for i in range(len(list))
 '''
 def method4(s: str, t: str) -> bool:
-  return map(s.find, s) == map(t.find, t)
+  return list(map(s.find, s)) == list(map(t.find, t))
