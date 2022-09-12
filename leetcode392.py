@@ -1,3 +1,4 @@
+#This is an 'easy' questions with following methods.
 def method1(s: str, t: str) -> bool:
   if len(s) == 0:
      return True
