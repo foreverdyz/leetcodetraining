@@ -9,3 +9,13 @@ def method1(s: str, t: str) -> bool:
     if pivot >= len(s):
       return True
   return False
+
+'''
+iter(t) returns an iterator, which like a stack. Every time visit the first one, and remove it. 
+all() helps to check whether all items are True. 
+'''
+def method2(s: str, t:str) -> bool:
+  t = iter(t)
+  return all(c in t for c in s)
+
+#However, there are some methods bease on dynamic programming or binary search, which would be faster.
